@@ -22,7 +22,7 @@ var palavra = "Douglas2"; // Redeclarável
 let nome = "Douglas";
 
 console.log(`${nome} nasceu em 2001.`);
-console.log(`Em 2020 ${nome} conheceu Ester.`);
+console.log(`Em 2017 ${nome} conheceu Ester.`);
 console.log(`${nome} casou-se com Ester em 2025.`);
 console.log(`Ester teve um filho com ${nome} em 2033.`);
 console.log(`O filho de ${nome} se chama Mike.`);
