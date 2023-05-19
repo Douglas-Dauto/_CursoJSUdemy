@@ -106,6 +106,9 @@ console.log(typeof Number(umaString)); // Number
 
 console.log(String(umNumero)); // Transforma em dado do tipo texto
 console.log(typeof String(umNumero)); // String
+console.log(typeof umNumero.toString()); // Método para converter em string
+// Pode-se usar este método para conseguir o código binário do número.
+console.log(umNumero.toString(2)); // Saida == 1010 código binário do número
 
 console.log(Boolean(umNumero)); // Retorna um valor lógico (true ou false)
 console.log(Boolean(umNumero == umaString));
