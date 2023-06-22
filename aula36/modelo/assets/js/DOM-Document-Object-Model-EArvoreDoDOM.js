@@ -15,6 +15,7 @@ const container4 = document.getElementsByClassName('container')[0]; // Por class
 const container5 = document.getElementsByTagName('div')[0]; // Pelo nome da tag do elemento (apenas o elemento passado no índice)
 const container6 = document.getElementsByName('container')[0]; // Pelo atributo name do elemento (apenas o elemento passado no índice)
 // OBS: Os métodos no plural precisa do índice e nada impede que o índicie seja passado dinâmicamente para selecionar todos os elementos.
+// Os índices destes métodos faz referência a uma nodeList e não a um array.
 
 
 const elementos = [
