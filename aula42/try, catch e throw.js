@@ -35,3 +35,10 @@ function soma(x, y) {
 }
 
 // OBS: Não é interessante e é até potencialmente perigoso exibir os erros para o usuário, ao invés do erro, exiba uma mensagem indicando que deu erro por exemplo.
+
+// O throw pode substituir o valor do argumento automático caso o código que deu erro use throw em algum momento.
+try {
+    soma('1', 2);
+} catch(e) {
+    console.log(e); // Será exibido o erro do throw.
+}
