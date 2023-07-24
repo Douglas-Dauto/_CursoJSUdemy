@@ -1,3 +1,4 @@
+/* Método filter() de Arrays */
 // Este método é usado para filtrar um array com apenas os valores que queremos.
 // Este método requer uma função de callback que retorne um valor booleano, true quando queremos incluir o valor e false para quando não queremos.
 // O método filter não edita o array original, apenas retorna um novo array.
