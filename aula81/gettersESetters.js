@@ -1,7 +1,7 @@
 /* Getters e Setters */
 // São métodos assessores que protegem a propriedade do objeto.
 
-let velocidadePrivada; // Esta variável é nessessária pois se chamarmos this.velocidade dentro do getter e setter, gerará um loop infinito.
+let velocidadePrivada; // Esta variável é necessária pois se chamarmos this.velocidade dentro do getter e setter, gerará um loop infinito.
 
 class Carro {
     constructor(nome) {
