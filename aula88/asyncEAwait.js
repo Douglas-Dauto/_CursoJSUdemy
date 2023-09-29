@@ -36,6 +36,20 @@ async function exibePromises() {
 }
 exibePromises();
 
+// Pode-se usar o then para executar algo caso o resolve seja executado, ou colocar o código logo abaixo do await.
+async function iniciaPromises() {
+    try {
+        await conexaoBD2(false).then((valueResolve) => console.log(valueResolve + 'olá')); // Executando no then.
+        const valuePromise = await buscandoDadosBD2(false);
+        console.log(valuePromise + 'olá'); // Executando depois do await.
+    
+        await exibeDadosNaTela2(false);
+    } catch(e) {
+        console.log(e);
+    }
+}
+iniciaPromises();
+
 function conexaoBD2(boolean) {
     return new Promise((resolve, reject) => {
         if(boolean) reject(new Error());
